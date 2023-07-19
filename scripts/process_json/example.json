@@ -1,10 +1,11 @@
 [
   {
-    "id": "doc3",
-    "text": "KEDA add-on for AKS specification document",
-    "source": "file",
-    "source_id": "OneDrive - Microsoft/Azure function/KEDA_AddOn.docx",
-    "created_at": "2021-01-02T13:00:00Z",
-    "author": "Alice"
-  }
+      "id": "123",
+      "text": "This is a document about something",
+      "source": "file",
+      "source_id": "https://example.com/doc1",
+      "url": "https://example.com/doc1",
+      "created_at": "2021-01-01T12:00:00Z",
+      "author": "Alice"
+    }
 ]
