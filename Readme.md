@@ -139,11 +139,10 @@ Visit [ChatGPT](https://chat.openai.com/), select "Plugins" from the model picke
 
 Choose "Develop your own plugin" and enter your function host URL  when prompted.
 
-## References
-[Chatgpt plugin repo](https://github.com/openai/chatgpt-retrieval-plugin/tree/main#chatgpt-retrieval-plugin)
-
 Your Function chatGPT plugin is now enabled for your ChatGPT session.
 
 For more information, refer to the [OpenAI documentation](https://platform.openai.com/docs/plugins/getting-started/openapi-definition)
 
 
+## References
+[Chatgpt plugin repo](https://github.com/openai/chatgpt-retrieval-plugin/tree/main#chatgpt-retrieval-plugin)
