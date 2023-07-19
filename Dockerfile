@@ -15,7 +15,8 @@ RUN poetry export -f requirements.txt --output requirements.txt --without-hashes
 FROM mcr.microsoft.com/azure-functions/python:4-python3.10
 
 ENV AzureWebJobsScriptRoot=/home/site/wwwroot \
-    AzureFunctionsJobHost__Logging__Console__IsEnabled=true
+    AzureFunctionsJobHost__Logging__Console__IsEnabled=true\
+    AzureWebJobsFeatureFlags=EnableWorkerIndexing
 
 #WORKDIR /code
 
@@ -26,9 +27,7 @@ RUN pip install --upgrade pip
 
 
 
-#RUN pip install psycopg2
 
-#RUN pip install --no-cache-dir --upgrade -r requirements.txt
 RUN python3 -m pip install  -r requirements.txt
 
 COPY . /home/site/wwwroot
