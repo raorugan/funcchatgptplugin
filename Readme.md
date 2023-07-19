@@ -131,6 +131,16 @@ https://<<functions_host_url>/.well-known/openapi.yaml
 You can use to sample-payload.py in this repo to test the plugin. Update the url with your function host url and post the query of your choice
 ```sh
 python sample-payload.py
+data = {
+   "queries" : [
+       {
+            "query": "Where is the Todo list?"  ,
+            "top_k"  : 1
+            
+        }
+   ]
+   
+}
 Output - pathtothefile/ToDoList.txt
 ```
 ## Testing with ChatGPT
