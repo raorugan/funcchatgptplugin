@@ -5,7 +5,7 @@ url = "http://localhost:7071/query"
 data = {
    "queries" : [
        {
-            "query": "Where is my keda file?"  ,
+            "query": "Where is ToDO list?"  ,
             #"filter" : {"author" : "Bob"}  ,
             "top_k"  : 1
             
