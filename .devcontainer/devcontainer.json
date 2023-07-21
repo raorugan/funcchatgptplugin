@@ -1,5 +1,5 @@
 {
-    "name": "FastAPI on Azure Functions",
+    "name": "Document Search API on Azure Functions on ACA",
     "build": {
         "dockerfile": "Dockerfile",
         "args": {
