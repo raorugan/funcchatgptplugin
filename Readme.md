@@ -1,7 +1,8 @@
  The ChatGPT Retrieval Plugin lets you easily search and find personal or work documents by asking questions in everyday language.
  Follow these steps to quickly set up and run the ChatGPT Retrieval Plugin using Azure Functions on Azure Container Apps :
 
-![image](https://github.com/raorugan/funcchatgptplugin/assets/45637559/7e7c9d38-76da-4248-9802-2ce99665a793)
+![image](https://github.com/raorugan/funcchatgptplugin/assets/45637559/00b89215-490a-434b-93ec-444fd97d1419)
+
 
 
  
