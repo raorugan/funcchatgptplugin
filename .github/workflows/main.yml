@@ -31,7 +31,7 @@ permissions:
 env:
   AZURE_FUNCTION_APP_NAME: 'funchatgptaca'        # set this to your function app name on Azure
   LOGIN_SERVER: 'docker.io'                    # set this to login server for your private container registry (e.g. 'contoso.azurecr.io', 'docker.io' )
-  REGISTRY: 'ramyaliftrdocker'                       # set this to proper value for REGISTRY
+  REGISTRY: 'docker.io'                       # set this to proper value for REGISTRY
   NAMESPACE: 'ramyaliftrdocker'                     # set this to proper value for NAMESPACE
   IMAGE: 'funchatgptimage'                             # set this to proper value for IMAGE
   TAG: ${{ github.sha }}                          # set this to proper value for TAG
