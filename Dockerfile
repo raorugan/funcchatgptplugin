@@ -23,7 +23,7 @@ ENV AzureWebJobsScriptRoot=/home/site/wwwroot \
 RUN apt-get update && apt-get -y install libpq-dev gcc
 
 COPY --from=requirements-stage /tmp/requirements.txt requirements.txt
-#RUN pip install --upgrade pip
+RUN pip install --upgrade pip
 
 
 
