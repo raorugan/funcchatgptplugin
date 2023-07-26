@@ -25,7 +25,7 @@ PG_PASSWORD = os.environ.get("PG_PASSWORD", "postgres")
 # class that implements the DataStore interface for Postgres Datastore provider
 class PostgresDataStore(PgVectorDataStore):
     def create_db_client(self):
-        logging.info('PAssword postgresql is : %s',PG_PASSWORD)
+        #logging.info('PAssword postgresql is : %s',PG_PASSWORD)
         return PostgresClient()
 
 
