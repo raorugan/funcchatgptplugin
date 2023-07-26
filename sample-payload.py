@@ -5,7 +5,7 @@ url = "http://localhost:7071/query"
 data = {
    "queries" : [
        {
-            "query": "Where is ToDO list?"  ,
+            "query": "find the excel to sql converter?"  ,
             #"filter" : {"author" : "Bob"}  ,
             "top_k"  : 1
             
