@@ -5,7 +5,7 @@ url = "http://localhost:7071/query"
 data = {
    "queries" : [
        {
-            "query": "find the excel to sql converter?"  ,
+            "query": "find the python dependencies file?"  ,
             
             "top_k"  : 1
             
