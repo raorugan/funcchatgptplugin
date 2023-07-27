@@ -6,7 +6,7 @@ data = {
    "queries" : [
        {
             "query": "find the excel to sql converter?"  ,
-            #"filter" : {"author" : "Bob"}  ,
+            
             "top_k"  : 1
             
         }
