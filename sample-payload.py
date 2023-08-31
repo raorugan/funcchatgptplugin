@@ -5,7 +5,7 @@ url = "http://localhost:7071/query"
 data = {
    "queries" : [
        {
-            "query": "find the python dependencies file?"  ,
+            "query": "find the python dependencies?"  ,
             
             "top_k"  : 1
             
